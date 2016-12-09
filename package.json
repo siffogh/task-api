@@ -1,0 +1,16 @@
+{
+  "name": "interview_task",
+  "version": "1.0.0",
+  "description": "API server that handles different queries on Github dataset.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "SEIF EDDINE GHEZALA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0"
+  }
+}
