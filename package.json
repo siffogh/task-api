@@ -4,7 +4,7 @@
   "description": "API server that handles different queries on Github dataset.",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "start": "node app.js"
   },
   "author": "SEIF EDDINE GHEZALA",
   "license": "ISC",
