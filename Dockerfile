@@ -1,19 +1,19 @@
-FROM node:argon
+FROM node:6.3.0
 
 # Create app directory
-RUN mkdir -p /Users/siffedineghezala/docker/apps/interview_task
-WORKDIR /Users/siffedineghezala/docker/apps/interview_task
+RUN mkdir -p /apps/task-server
+WORKDIR /apps/task-server
 
 
 # Install app dependencies
-COPY package.json /Users/siffedineghezala/docker/apps/interview_task
+COPY package.json /apps/task-server
 RUN npm install
 
 
 # copy source files
-COPY . /Users/siffedineghezala/docker/apps/interview_task
+COPY . /apps/task-server
 
 EXPOSE 3000
 
 
-CMD ["npm", "start"]
+CMD npm start

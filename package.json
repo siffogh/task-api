@@ -1,5 +1,5 @@
 {
-  "name": "interview_task",
+  "name": "task-server",
   "version": "1.0.0",
   "description": "API server that handles different queries on Github dataset.",
   "main": "app.js",
